@@ -9,6 +9,12 @@ class Loops2 {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
+            int calc = a;
+            for (int j = 0; j < n; j++) {
+                calc += (Math.pow(2, j) * b);
+                System.out.print(calc + " ");
+            }
+            System.out.println();
         }
         in.close();
     }

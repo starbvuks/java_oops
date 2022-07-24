@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Stdin2 {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
@@ -9,7 +10,6 @@ public class Stdin2 {
         String s = scan.nextLine();
 
         scan.close();
-        // Write your code here.
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
