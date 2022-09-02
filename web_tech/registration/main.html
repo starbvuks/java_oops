@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Registration</title>
+  </head>
+  <body class="main">
+    <div class="headLogo">
+      <img src="sk-logo.png" alt="logo" class="logo" />
+      <h1>Student Registration</h1>
+    </div>
+    <form autocomplete="off">
+      <div class="topHalf">
+        <div class="nameForm">
+          <div class="nameFormDiv">
+            <label for="fname">First Name</label>
+            <input type="text" name="mname" />
+          </div>
+          <div class="nameFormDiv">
+            <label for="mname">Middle Name</label>
+            <input type="text" name="lname" />
+          </div>
+          <div class="nameFormDiv">
+            <label for="lname">Last Name</label>
+            <input type="text" name="fname" />
+          </div>
+          <button type="submit" id="nameSubmit">Submit</button>
+        </div>
+
+        <div class="subjects">
+          <label for="subjects">Subjects:</label><br />
+          <select class="subjecSelect">
+            <option value="" disabled selected>Domain</option>
+            <option value="AI">AI</option>
+            <option value="Robotics">Robotics</option>
+            <option value="DS">Data Science</option>
+            <option value="CSE">CSE</option>
+            <option value="Cloud Computing">Cloud Computing</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="middlediv">
+        <div class="genderdiv">
+          <label> Gender: </label>
+          <div>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="other" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+
+        <div class="phone">
+          <label class="phoneHead"> Phone No: </label>
+          <input type="text" name="country-code" value="+91" size="2" />
+          <input
+            type="tel"
+            maxlength="10"
+            name="phone-num"
+            placeholder="Enter Number"
+          />
+        </div>
+      </div>
+
+      <div class="bottomdiv">
+        <div class="address">
+          <label for="textarea"> Address: </label>
+          <textarea rows="5" cols="40" id="textarea" name="textarea"></textarea>
+        </div>
+
+        <div class="strengths">
+          <label> Strengths: </label><br />
+          <input
+            type="checkbox"
+            id="programming"
+            name="programming"
+            value="programming"
+          />
+          <label for="programming">Programming</label><br />
+          <input type="checkbox" id="team" name="team" value="team" />
+          <label for="'team">Teamwork</label><br />
+          <input type="checkbox" id="comm" name="comm" value="comm" />
+          <label for="comm">Communication</label><br />
+          <input type="checkbox" id="prob" name="prob" value="prob" />
+          <label for="'prob">Problem Solving</label><br />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

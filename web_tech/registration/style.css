@@ -1,0 +1,102 @@
+.main {
+    margin: 25px;
+    background-color:#f6f6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headLogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.topHalf {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.nameForm {
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    background-color: grey;
+    color: #f6f6f6;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.nameFormDiv {
+    display:flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+#nameSubmit {
+    margin-top: 15px;
+    width: 25%;
+}
+
+.subjects {
+    background-color: grey;
+    color: #f6f6f6;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.subjecSelect {
+    margin-top: 20px;
+}
+
+.middlediv {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.genderdiv {
+    display:flex;
+    width: 40%;
+    justify-content: space-around;
+    margin: 3% 0;
+    padding: 5%;
+    background-color: grey;
+    color: #f6f6f6;
+    border-radius: 25px;
+}
+
+.phone {
+    display:flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 3% 0;
+    padding: 5%;
+    background-color: grey;
+    color: #f6f6f6;
+    border-radius: 25px;
+}
+
+#phoneHead {
+    margin-right: 20px;
+}
+
+.bottomdiv {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding: 3%;
+    color: #f6f6f6;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
