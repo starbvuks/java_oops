@@ -17,8 +17,8 @@ class Cs {
 		return (f1+f2);
 	}
 	public void printData() {
-		System.out.print("p= " + p);
-		System.out.print("q= " + q);
+		System.out.println("p= " + p);
+		System.out.println("q= " + q);
 	}
 }
 
