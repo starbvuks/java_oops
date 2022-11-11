@@ -10,7 +10,7 @@ public class DivideException {
 			int a = Integer.parseInt(arr[0]);
 			int b = Integer.parseInt(arr[1]);
 			if(b == 0)
-				throw(new Exception("second arg must e non zero"));
+				throw(new Exception("second arg must be non zero"));
 				
 			float c = a/b;
 			System.out.println("result: " +c);
